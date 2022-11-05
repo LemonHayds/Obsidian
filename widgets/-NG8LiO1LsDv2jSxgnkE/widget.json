@@ -1,0 +1,17 @@
+{
+  "autoHeight": true,
+  "dataSource": "digitalProducts",
+  "gsOptions": {
+    "h": 8,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto;",
+  "tab": "-NG4rlSk-44DoiE-LwIJ",
+  "title": "Products",
+  "type": "card-list",
+  "useContainerForDetail": false,
+  "useContainerForList": false
+}

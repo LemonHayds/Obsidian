@@ -1,3 +1,20 @@
-.modal-title{
-       content: "links";   
+#__BVID__174___BV_modal_title_{
+    display: none;
+}
+
+.title{
+    display: none;
+}
+
+.ml-auto{
+    display: none;
+}
+
+#__BVID__174___BV_modal_content_{
+    margin: 150px;
+    margin-top: 80px;
+}
+
+.btn-primary{
+    display: none;
 }

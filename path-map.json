@@ -51,17 +51,17 @@
     }
   },
   {
-    "filePath": "customCode/html/Developer Access.html",
+    "filePath": "customCode/html/DeveloperAccess.html",
     "savePath": "customCode/html/-NG4z-9oJSsooxEzx4ne/code",
-    "customCodeName": "Developer Access",
+    "customCodeName": "DeveloperAccess",
     "customCodeScope": {
       "-NG4rlSk-44DoiE-LwIJ": true
     }
   },
   {
-    "filePath": "customCode/html/Enter Username.html",
+    "filePath": "customCode/html/EnterUsername.html",
     "savePath": "customCode/html/-NG5D-BNLa2OIcDc3ZTD/code",
-    "customCodeName": "Enter Username",
+    "customCodeName": "EnterUsername",
     "customCodeScope": {
       "-NG4rlSk-44DoiE-LwIJ": {
         "-NG5CvdNXshlC5AyBZJA": true
@@ -133,6 +133,18 @@
   {
     "filePath": "widgets/-NG811isop9FeynUdiP_/template.html",
     "savePath": "widgets/-NG811isop9FeynUdiP_/template"
+  },
+  {
+    "filePath": "widgets/-NG8LiO1LsDv2jSxgnkE/widget.json",
+    "savePath": "widgets/-NG8LiO1LsDv2jSxgnkE"
+  },
+  {
+    "filePath": "widgets/-NG8LiO1LsDv2jSxgnkE/detailTemplate.html",
+    "savePath": "widgets/-NG8LiO1LsDv2jSxgnkE/detailTemplate"
+  },
+  {
+    "filePath": "widgets/-NG8LiO1LsDv2jSxgnkE/template.html",
+    "savePath": "widgets/-NG8LiO1LsDv2jSxgnkE/template"
   },
   {
     "filePath": "widgetsComputed/CompleteProfile.js",
