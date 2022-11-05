@@ -1,0 +1,35 @@
+.sc-launcher{
+    display: none;
+}
+
+.RowComments {
+    display: none !important;
+}
+
+.draggableItem {
+    z-index: 1000 !important;
+}
+
+.sidenav.navbar {
+    display: none !important;
+}
+.appNav._navInSideBar {
+    display: none !important;
+}
+
+.navbar-vertical.navbar-expand-xs.fixed-left + .main-content{
+    margin-left: 0px;
+}
+
+/*Show Tangle Panel When Opened*/
+.splitpanes__pane{
+    z-index: 10;
+}
+
+.splitpanes__splitter{
+    z-index: 10;
+}
+
+.sidebarMobileTrigger{
+    display: none !important;
+}

@@ -1,5 +1,9 @@
 [
   {
+    "filePath": "chat.json",
+    "savePath": "chat"
+  },
+  {
     "filePath": "customCode/css/HideTangle.css",
     "savePath": "customCode/css/-NG4vLEgu7r6OCgi6XB2/code",
     "customCodeName": "HideTangle",
@@ -8,11 +12,24 @@
     }
   },
   {
+    "filePath": "customCode/css/GlobalHideTangleElements.css",
+    "savePath": "customCode/css/-NG50Cld-b3opa2QnTu6/code",
+    "customCodeName": "GlobalHideTangleElements"
+  },
+  {
     "filePath": "customCode/html/Landing Page.html",
     "savePath": "customCode/html/-NG4um6yMnGyidVYWvYK/code",
     "customCodeName": "Landing Page",
     "customCodeScope": {
       "_parentOnly_-NG4rlSk-44DoiE-LwIJ": true
+    }
+  },
+  {
+    "filePath": "customCode/html/Developer Access.html",
+    "savePath": "customCode/html/-NG4z-9oJSsooxEzx4ne/code",
+    "customCodeName": "Developer Access",
+    "customCodeScope": {
+      "-NG4rlSk-44DoiE-LwIJ": true
     }
   },
   {
@@ -36,12 +53,37 @@
     "savePath": "tabs/-NG4s05e-2aCLzUO4BvN"
   },
   {
+    "filePath": "pages/-NG567wDyDXu4cdUP2LG.json",
+    "savePath": "tabs/-NG567wDyDXu4cdUP2LG"
+  },
+  {
     "filePath": "widgets/-NG4sMr8GeMwPzXzSXlu/widget.json",
     "savePath": "widgets/-NG4sMr8GeMwPzXzSXlu"
   },
   {
+    "filePath": "widgets/-NG569haYKCb30pGtLFj/widget.json",
+    "savePath": "widgets/-NG569haYKCb30pGtLFj"
+  },
+  {
+    "filePath": "widgets/-NG569haYKCb30pGtLFj/template.html",
+    "savePath": "widgets/-NG569haYKCb30pGtLFj/template"
+  },
+  {
+    "filePath": "widgetsComputed/ConnectWallet.js",
+    "savePath": "widgetsComputed/ConnectWallet"
+  },
+  {
+    "filePath": "widgetsComputed/RedirectToTangle.js",
+    "savePath": "widgetsComputed/RedirectToTangle"
+  },
+  {
     "filePath": "widgetsData/dataGrid/digitalProducts.json",
     "savePath": "widgetsData/dataGrid/digitalProducts",
+    "conversion": "dataGrid"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/extensions.json",
+    "savePath": "widgetsData/dataGrid/extensions",
     "conversion": "dataGrid"
   }
 ]

@@ -1,0 +1,90 @@
+{
+  "isReactive": true,
+  "meta": {
+    "active": {
+      "displayName": "Active",
+      "inherited": true,
+      "invisible": false,
+      "order": 1,
+      "type": "checkbox"
+    },
+    "createdDate": {
+      "displayName": "Created Date",
+      "inherited": true,
+      "invisible": true,
+      "order": 5,
+      "type": "date"
+    },
+    "files": {
+      "displayName": "Files",
+      "inherited": true,
+      "invisible": false,
+      "order": 4,
+      "type": "files"
+    },
+    "includeCode": {
+      "Width": "726px",
+      "displayName": "Include Code",
+      "inherited": true,
+      "invisible": false,
+      "order": 2,
+      "type": "multiline_text"
+    },
+    "lastEditDate": {
+      "displayName": "Last edit date",
+      "inherited": true,
+      "invisible": true,
+      "order": 10,
+      "type": "date"
+    },
+    "lastEditedBy": {
+      "displayName": "Last edited by",
+      "inherited": true,
+      "invisible": true,
+      "order": 9,
+      "type": "user"
+    },
+    "layout": {
+      "displayName": "Layout",
+      "inherited": true,
+      "invisible": true,
+      "order": 11,
+      "type": "select"
+    },
+    "name": {
+      "displayName": "Name",
+      "inherited": true,
+      "invisible": false,
+      "order": 0,
+      "type": "string"
+    },
+    "nextEvents": {
+      "displayName": "Next Events",
+      "inherited": true,
+      "invisible": true,
+      "order": 8,
+      "type": "string"
+    },
+    "owner": {
+      "displayName": "Owner",
+      "inherited": true,
+      "invisible": true,
+      "order": 6,
+      "type": "user"
+    },
+    "state": {
+      "displayName": "State",
+      "inherited": true,
+      "invisible": true,
+      "order": 7,
+      "type": "string"
+    },
+    "urls": {
+      "displayName": "Urls",
+      "inherited": true,
+      "invisible": false,
+      "order": 3,
+      "type": "multiline_text"
+    }
+  }
+}
