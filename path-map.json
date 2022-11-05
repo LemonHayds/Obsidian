@@ -17,6 +17,32 @@
     "customCodeName": "GlobalHideTangleElements"
   },
   {
+    "filePath": "customCode/css/main.css",
+    "savePath": "customCode/css/-NG7suETgTnMoDfCQBfx/code",
+    "customCodeName": "main",
+    "customCodeScope": {
+      "-NG4rlSk-44DoiE-LwIJ": true
+    }
+  },
+  {
+    "filePath": "customCode/css/TangleStyleFix.css",
+    "savePath": "customCode/css/-NG81n7IBQSUploFnc78/code",
+    "customCodeName": "TangleStyleFix",
+    "customCodeScope": {
+      "-NG4rlSk-44DoiE-LwIJ": true
+    }
+  },
+  {
+    "filePath": "customCode/css/CreateListingModalStyling.css",
+    "savePath": "customCode/css/-NG84_Cma9oDlksEPOGR/code",
+    "customCodeName": "CreateListingModalStyling",
+    "customCodeScope": {
+      "-NG4rlSk-44DoiE-LwIJ": {
+        "-NG4sBs0811gcAZsTAF4": true
+      }
+    }
+  },
+  {
     "filePath": "customCode/html/Landing Page.html",
     "savePath": "customCode/html/-NG4um6yMnGyidVYWvYK/code",
     "customCodeName": "Landing Page",
@@ -33,6 +59,38 @@
     }
   },
   {
+    "filePath": "customCode/html/Enter Username.html",
+    "savePath": "customCode/html/-NG5D-BNLa2OIcDc3ZTD/code",
+    "customCodeName": "Enter Username",
+    "customCodeScope": {
+      "-NG4rlSk-44DoiE-LwIJ": {
+        "-NG5CvdNXshlC5AyBZJA": true
+      }
+    }
+  },
+  {
+    "filePath": "customCode/html/MyDashboard.html",
+    "savePath": "customCode/html/-NG84RZ-UF5CtRsWxJ-q/code",
+    "customCodeName": "MyDashboard",
+    "customCodeScope": {
+      "-NG4rlSk-44DoiE-LwIJ": {
+        "-NG4sBs0811gcAZsTAF4": true
+      }
+    }
+  },
+  {
+    "filePath": "customCode/js/main.js",
+    "savePath": "customCode/js/-NG7uK9mKt5vzNV_AZ6M/code",
+    "customCodeName": "main",
+    "customCodeScope": {
+      "-NG4rlSk-44DoiE-LwIJ": true
+    }
+  },
+  {
+    "filePath": "settings.json",
+    "savePath": "settings"
+  },
+  {
     "filePath": "subPages/-NG4rlSk-44DoiE-LwIJ/-NG4s9QQ8ljZRM1zoE4a.json",
     "savePath": "subTabs/-NG4rlSk-44DoiE-LwIJ/-NG4s9QQ8ljZRM1zoE4a"
   },
@@ -41,8 +99,8 @@
     "savePath": "subTabs/-NG4rlSk-44DoiE-LwIJ/-NG4sBs0811gcAZsTAF4"
   },
   {
-    "filePath": "subPages/-NG4rlSk-44DoiE-LwIJ/-NG4sJ9W-Y19bT7CPCLE.json",
-    "savePath": "subTabs/-NG4rlSk-44DoiE-LwIJ/-NG4sJ9W-Y19bT7CPCLE"
+    "filePath": "subPages/-NG4rlSk-44DoiE-LwIJ/-NG5CvdNXshlC5AyBZJA.json",
+    "savePath": "subTabs/-NG4rlSk-44DoiE-LwIJ/-NG5CvdNXshlC5AyBZJA"
   },
   {
     "filePath": "pages/-NG4rlSk-44DoiE-LwIJ.json",
@@ -61,16 +119,44 @@
     "savePath": "widgets/-NG4sMr8GeMwPzXzSXlu"
   },
   {
-    "filePath": "widgets/-NG569haYKCb30pGtLFj/widget.json",
-    "savePath": "widgets/-NG569haYKCb30pGtLFj"
+    "filePath": "widgets/-NG5CMyl1A9vxC-wvigg/widget.json",
+    "savePath": "widgets/-NG5CMyl1A9vxC-wvigg"
   },
   {
-    "filePath": "widgets/-NG569haYKCb30pGtLFj/template.html",
-    "savePath": "widgets/-NG569haYKCb30pGtLFj/template"
+    "filePath": "widgets/-NG5CMyl1A9vxC-wvigg/template.html",
+    "savePath": "widgets/-NG5CMyl1A9vxC-wvigg/template"
+  },
+  {
+    "filePath": "widgets/-NG811isop9FeynUdiP_/widget.json",
+    "savePath": "widgets/-NG811isop9FeynUdiP_"
+  },
+  {
+    "filePath": "widgets/-NG811isop9FeynUdiP_/template.html",
+    "savePath": "widgets/-NG811isop9FeynUdiP_/template"
+  },
+  {
+    "filePath": "widgetsComputed/CompleteProfile.js",
+    "savePath": "widgetsComputed/CompleteProfile"
   },
   {
     "filePath": "widgetsComputed/ConnectWallet.js",
     "savePath": "widgetsComputed/ConnectWallet"
+  },
+  {
+    "filePath": "widgetsComputed/CreateListing.js",
+    "savePath": "widgetsComputed/CreateListing"
+  },
+  {
+    "filePath": "widgetsComputed/GetCurrentUser.js",
+    "savePath": "widgetsComputed/GetCurrentUser"
+  },
+  {
+    "filePath": "widgetsComputed/GetCurrentUserRowKey.js",
+    "savePath": "widgetsComputed/GetCurrentUserRowKey"
+  },
+  {
+    "filePath": "widgetsComputed/GetProfileComplete.js",
+    "savePath": "widgetsComputed/GetProfileComplete"
   },
   {
     "filePath": "widgetsComputed/RedirectToTangle.js",
@@ -84,6 +170,11 @@
   {
     "filePath": "widgetsData/dataGrid/extensions.json",
     "savePath": "widgetsData/dataGrid/extensions",
+    "conversion": "dataGrid"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/users.json",
+    "savePath": "widgetsData/dataGrid/users",
     "conversion": "dataGrid"
   }
 ]

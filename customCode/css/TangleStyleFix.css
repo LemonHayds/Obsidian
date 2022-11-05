@@ -1,0 +1,71 @@
+/* TangleStyleFix.css */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.widgetTemplateWrapper {
+  display: block;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+
+
+input,
+input:active,
+input:focus,
+input:-moz-focusring {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none !important;
+}
+
+button {
+  border: none;
+  font-weight: 500;
+}
+
+button:focus {
+  background: unset;
+}
+
+label {
+  padding: 0;
+  margin: 0;
+}
+
+::placeholder,
+::-webkit-input-placeholder,
+:-ms-input-placeholder {
+  color: #000000;
+  opacity: 0.5;
+}
+
+
+.dashboard__content,
+.dashboard {
+  margin: 0;
+  padding: 0 !important;
+}
+
+div[role='tabpanel'],
+#__BVID__415 {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+
+
+

@@ -1,4 +1,6 @@
-return function(walletChoice){
+return async function(walletChoice){
+
+    const rowKey = this.GetCurrentUserRowKey()
 
     if(walletChoice == 'torus'){
         const connectTorus = async () => {
@@ -18,7 +20,20 @@ return function(walletChoice){
             const web3 = new Web3(window.torus.provider)
             wallet = (await web3.eth.getAccounts())[0]
         }
-        connectTorus()
+        await connectTorus()
+
+        //Save wallet details to database
+        $setDataGridVal('users', rowKey + '.walletAddress', wallet)
+        $setDataGridVal('users', rowKey + '.walletProvider', 'torus')
+
+        //User already signed in
+        if(this.GetProfileComplete() == true){
+            $setCurrentSubTab('-NG4sBs0811gcAZsTAF4')
+        }
+        //User doesn't have account
+        else{
+            $setCurrentSubTab('-NG5CvdNXshlC5AyBZJA')
+        }
     }
     else if(walletChoice == 'metamask'){
         const connectWalletHandler = async () => {
@@ -52,7 +67,20 @@ return function(walletChoice){
                 }
             }
         }
-        connectWalletHandler()
+        await connectWalletHandler()
+
+        //Save wallet details to database
+        $setDataGridVal('users', rowKey + '.walletAddress', wallet)
+        $setDataGridVal('users', rowKey + '.walletProvider', 'torus')
+
+        //User already signed in
+        if(this.GetProfileComplete() == true){
+            $setCurrentSubTab('-NG4sBs0811gcAZsTAF4')
+        }
+        //User doesn't have account
+        else{
+            $setCurrentSubTab('-NG5CvdNXshlC5AyBZJA')
+        }
     }
 
 }
