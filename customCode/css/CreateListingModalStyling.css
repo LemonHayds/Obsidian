@@ -11,10 +11,10 @@
 }
 
 #__BVID__174___BV_modal_content_{
-    margin: 150px;
-    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
-.btn-primary{
+.d-flex .btn{
     display: none;
 }

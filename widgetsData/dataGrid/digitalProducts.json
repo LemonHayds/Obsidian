@@ -15,17 +15,17 @@
     },
     "endDate": {
       "displayName": "endDate",
-      "order": 14,
+      "order": 13,
       "type": "date"
     },
-    "file": {
-      "displayName": "file",
-      "order": 11,
-      "type": "files"
+    "fileUpload": {
+      "displayName": "fileUpload",
+      "order": 15,
+      "type": "custom"
     },
     "fundingGoal": {
       "displayName": "fundingGoal",
-      "order": 12,
+      "order": 11,
       "type": "number"
     },
     "lastEditDate": {
@@ -68,6 +68,11 @@
       "order": 2,
       "type": "user"
     },
+    "perBuyerPrice": {
+      "displayName": "perBuyerPrice",
+      "order": 14,
+      "type": "number"
+    },
     "preview1": {
       "displayName": "preview1",
       "order": 9,
@@ -75,7 +80,7 @@
     },
     "startDate": {
       "displayName": "startDate",
-      "order": 13,
+      "order": 12,
       "type": "date"
     },
     "state": {
@@ -275,6 +280,50 @@
                 "gridId": "digitalProducts"
               },
               {
+                "type": "number",
+                "name": "control_fab3eb30-5d52-11ed-9397-85990d0a8906",
+                "fieldName": "control_fab3eb30-5d52-11ed-9397-85990d0a8906",
+                "label": "Per Buyer Price (Matic)",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-12",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": false,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "perBuyerPrice",
+                "gridId": "digitalProducts"
+              },
+              {
                 "type": "datepicker",
                 "name": "control_95d81060-5d52-11ed-9397-85990d0a8906",
                 "fieldName": "control_95d81060-5d52-11ed-9397-85990d0a8906",
@@ -365,10 +414,10 @@
                 "description": "When the listing ends"
               },
               {
-                "type": "files",
-                "name": "control_6f9be050-5d40-11ed-bad2-9dafe99f69be",
-                "fieldName": "control_6f9be050-5d40-11ed-bad2-9dafe99f69be",
-                "label": "Product File",
+                "type": "custom",
+                "name": "control_f71a7d80-5d62-11ed-b6ed-7d4f7ec58922",
+                "fieldName": "control_f71a7d80-5d62-11ed-b6ed-7d4f7ec58922",
+                "label": "fileUpload",
                 "order": 0,
                 "defaultValue": "",
                 "value": "",
@@ -394,7 +443,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "",
+                "customCode": "<label class=\"form-label\" for=\"customFile\">Default file input example</label>\r\n<input type=\"file\" class=\"form-control\" id=\"customFile\" />",
                 "invisible": false,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": false,
@@ -405,7 +454,7 @@
                 "mask": "",
                 "lookupOpenInModalDisabled": false,
                 "editorMode": "javascript",
-                "propName": "file",
+                "propName": "fileUpload",
                 "gridId": "digitalProducts"
               },
               {
@@ -438,7 +487,7 @@
                 "ajaxDataUrl": "",
                 "isChecked": false,
                 "vif": "",
-                "customCode": "<b-button style=\"width: 100%;\">List Product</b-button>",
+                "customCode": "<b-button style=\"width: 100%;\" @click=\"CreateListingJSON(rowData.name, rowData.description, rowData.file)\">\r\n    List Product\r\n</b-button>",
                 "invisible": false,
                 "invisibleCondition": "",
                 "invisibleInDataGrid": true,
@@ -780,7 +829,7 @@
       }
     ],
     "layout": "collapse",
-    "_uniqueId": 0.6410212741222894
+    "_uniqueId": 0.718010451178128
   },
   "source": "digitalProducts",
   "storageType": "dashboard",

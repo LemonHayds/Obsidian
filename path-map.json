@@ -159,12 +159,20 @@
     "savePath": "widgetsComputed/CreateListing"
   },
   {
+    "filePath": "widgetsComputed/CreateListingJSON.js",
+    "savePath": "widgetsComputed/CreateListingJSON"
+  },
+  {
     "filePath": "widgetsComputed/GetCurrentUser.js",
     "savePath": "widgetsComputed/GetCurrentUser"
   },
   {
     "filePath": "widgetsComputed/GetCurrentUserRowKey.js",
     "savePath": "widgetsComputed/GetCurrentUserRowKey"
+  },
+  {
+    "filePath": "widgetsComputed/GetCurrentUsername.js",
+    "savePath": "widgetsComputed/GetCurrentUsername"
   },
   {
     "filePath": "widgetsComputed/GetProfileComplete.js",
