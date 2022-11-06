@@ -31,6 +31,15 @@
 <div class="body-center-1">
     <h1 class="body-header-1">My Listings</h1>
     <b-button @click="CreateListing()">Create listing</b-button>
+
+    <div >
+      <div class="row">
+        <div v-for="GetMyListings()" class="col">
+          <b-card style="width: 100px;">HELLO</b-card>
+        </div>
+      </div>
+    </div>
+
 </div>
 
 <div class="footer">
