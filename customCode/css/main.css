@@ -1,24 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
-.navbar-brand {
-  font-size:24px;
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  float:none;
-  color: black;
-}
-
-.navbar-brand:hover{
-  color: black;
-}
 
 .navbar-brand-container{
   align-items: center;
 }
 
 .navbar-item{
-  font-size:20px;
+  font-size:18px;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   float:none;
@@ -53,4 +41,29 @@
 #dropdownMenuButton{
   font-family: 'Open Sans', sans-serif;
   font-size:18px;
+}
+
+#obsidian__username{
+  padding: 10px;
+  border-color: black;
+}
+
+.test-1{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.big-container{
+  padding-top: 200px;
+}
+
+.body-center-1{
+  padding-top: 20px;
+  padding-left: 100px;
+}
+
+.body-header-1{
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
 }

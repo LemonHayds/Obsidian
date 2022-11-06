@@ -1,7 +1,7 @@
 //Contracts.js
 
 return () => ({
-  ObsidianAddress: '0x85C36f6c6Fb0692Bb5A58912036962db29Ab8ea6',
+  ObsidianAddress: '0x6D238b273799c378829Fca1F3a0C090591daE92e',
   ObsidianAddressABI: [
         {
             "inputs": [

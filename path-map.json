@@ -103,6 +103,10 @@
     "savePath": "subTabs/-NG4rlSk-44DoiE-LwIJ/-NG5CvdNXshlC5AyBZJA"
   },
   {
+    "filePath": "subPages/-NG4rlSk-44DoiE-LwIJ/-NGA62zvI12qMNPvoRx-.json",
+    "savePath": "subTabs/-NG4rlSk-44DoiE-LwIJ/-NGA62zvI12qMNPvoRx-"
+  },
+  {
     "filePath": "pages/-NG4rlSk-44DoiE-LwIJ.json",
     "savePath": "tabs/-NG4rlSk-44DoiE-LwIJ"
   },
@@ -145,6 +149,10 @@
   {
     "filePath": "widgets/-NG8LiO1LsDv2jSxgnkE/template.html",
     "savePath": "widgets/-NG8LiO1LsDv2jSxgnkE/template"
+  },
+  {
+    "filePath": "widgets/-NGA63MTZSZ2D7wqSmpG/widget.json",
+    "savePath": "widgets/-NGA63MTZSZ2D7wqSmpG"
   },
   {
     "filePath": "widgetsComputed/CompleteProfile.js",
@@ -206,6 +214,11 @@
   {
     "filePath": "widgetsData/dataGrid/extensions.json",
     "savePath": "widgetsData/dataGrid/extensions",
+    "conversion": "dataGrid"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/myPurchases.json",
+    "savePath": "widgetsData/dataGrid/myPurchases",
     "conversion": "dataGrid"
   },
   {
