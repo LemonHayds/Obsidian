@@ -67,3 +67,32 @@
   font-family: 'Open Sans', sans-serif;
   color: black;
 }
+
+.active {
+  font-weight: bold;
+  color: black;
+}
+
+.search-container{
+  width: 29rem;
+  height: 100%;
+  margin: 0 1rem;
+  position: relative;
+}
+
+.outer-container{
+  display: flex;  
+  flex-direction: row;
+}
+
+.container1 { 
+    border: 3px dashed black; 
+    width: 150px; 
+    height: 150px;
+  }
+
+.container2 {
+    border: 3px dashed black; 
+    width: 150px; 
+    height: 150px;
+}

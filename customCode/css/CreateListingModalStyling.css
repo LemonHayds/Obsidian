@@ -13,8 +13,9 @@
 #__BVID__174___BV_modal_content_{
     margin-left: 150px;
     margin-right: 150px;
+    z-index: 1;
 }
 
-.d-flex .btn{
-    display: none;
+.avatar-cropper-overlay{
+    z-index: 999999999;
 }

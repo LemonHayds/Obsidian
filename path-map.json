@@ -69,12 +69,42 @@
     }
   },
   {
-    "filePath": "customCode/html/MyDashboard.html",
+    "filePath": "customCode/html/MyListings.html",
     "savePath": "customCode/html/-NG84RZ-UF5CtRsWxJ-q/code",
-    "customCodeName": "MyDashboard",
+    "customCodeName": "MyListings",
     "customCodeScope": {
       "-NG4rlSk-44DoiE-LwIJ": {
         "-NG4sBs0811gcAZsTAF4": true
+      }
+    }
+  },
+  {
+    "filePath": "customCode/html/MyPurchases.html",
+    "savePath": "customCode/html/-NGA7NJbQwXkqfcDv9RH/code",
+    "customCodeName": "MyPurchases",
+    "customCodeScope": {
+      "-NG4rlSk-44DoiE-LwIJ": {
+        "-NGA62zvI12qMNPvoRx-": true
+      }
+    }
+  },
+  {
+    "filePath": "customCode/html/Account.html",
+    "savePath": "customCode/html/-NGA8TFWVQkKQ66eilmm/code",
+    "customCodeName": "Account",
+    "customCodeScope": {
+      "-NG4rlSk-44DoiE-LwIJ": {
+        "-NGA7Fbz0HRtuc5t8Qo9": true
+      }
+    }
+  },
+  {
+    "filePath": "customCode/html/Home.html",
+    "savePath": "customCode/html/-NGA9XvBWyJjsJG_VxtK/code",
+    "customCodeName": "Home",
+    "customCodeScope": {
+      "-NG4rlSk-44DoiE-LwIJ": {
+        "-NGA9Up1Bf1avZ0MCfgu": true
       }
     }
   },
@@ -105,6 +135,14 @@
   {
     "filePath": "subPages/-NG4rlSk-44DoiE-LwIJ/-NGA62zvI12qMNPvoRx-.json",
     "savePath": "subTabs/-NG4rlSk-44DoiE-LwIJ/-NGA62zvI12qMNPvoRx-"
+  },
+  {
+    "filePath": "subPages/-NG4rlSk-44DoiE-LwIJ/-NGA7Fbz0HRtuc5t8Qo9.json",
+    "savePath": "subTabs/-NG4rlSk-44DoiE-LwIJ/-NGA7Fbz0HRtuc5t8Qo9"
+  },
+  {
+    "filePath": "subPages/-NG4rlSk-44DoiE-LwIJ/-NGA9Up1Bf1avZ0MCfgu.json",
+    "savePath": "subTabs/-NG4rlSk-44DoiE-LwIJ/-NGA9Up1Bf1avZ0MCfgu"
   },
   {
     "filePath": "pages/-NG4rlSk-44DoiE-LwIJ.json",
@@ -153,6 +191,14 @@
   {
     "filePath": "widgets/-NGA63MTZSZ2D7wqSmpG/widget.json",
     "savePath": "widgets/-NGA63MTZSZ2D7wqSmpG"
+  },
+  {
+    "filePath": "widgets/-NGA7FdgUgb0gO8e3KZr/widget.json",
+    "savePath": "widgets/-NGA7FdgUgb0gO8e3KZr"
+  },
+  {
+    "filePath": "widgets/-NGA9UqjAmqT9uV1l2cW/widget.json",
+    "savePath": "widgets/-NGA9UqjAmqT9uV1l2cW"
   },
   {
     "filePath": "widgetsComputed/CompleteProfile.js",
@@ -207,6 +253,11 @@
     "savePath": "widgetsComputed/UploadListingFiles"
   },
   {
+    "filePath": "widgetsData/dataGrid/account.json",
+    "savePath": "widgetsData/dataGrid/account",
+    "conversion": "dataGrid"
+  },
+  {
     "filePath": "widgetsData/dataGrid/digitalProducts.json",
     "savePath": "widgetsData/dataGrid/digitalProducts",
     "conversion": "dataGrid"
@@ -214,6 +265,11 @@
   {
     "filePath": "widgetsData/dataGrid/extensions.json",
     "savePath": "widgetsData/dataGrid/extensions",
+    "conversion": "dataGrid"
+  },
+  {
+    "filePath": "widgetsData/dataGrid/home.json",
+    "savePath": "widgetsData/dataGrid/home",
     "conversion": "dataGrid"
   },
   {

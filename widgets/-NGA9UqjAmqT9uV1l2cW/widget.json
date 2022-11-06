@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/home",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "home"
+  },
+  "subtab": "-NGA9Up1Bf1avZ0MCfgu",
+  "tab": "-NG4rlSk-44DoiE-LwIJ",
+  "type": "DataGrid"
+}

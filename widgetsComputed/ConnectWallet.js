@@ -71,7 +71,7 @@ return async function(walletChoice){
 
         //Save wallet details to database
         $setDataGridVal('users', rowKey + '.walletAddress', wallet)
-        $setDataGridVal('users', rowKey + '.walletProvider', 'torus')
+        $setDataGridVal('users', rowKey + '.walletProvider', 'metamask')
 
         //User already signed in
         if(this.GetProfileComplete() == true){
