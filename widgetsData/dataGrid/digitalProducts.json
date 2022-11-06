@@ -62,6 +62,11 @@
       "order": 5,
       "type": "string"
     },
+    "nftListed": {
+      "displayName": "nftListed",
+      "order": 18,
+      "type": "checkbox"
+    },
     "owner": {
       "displayName": "Owner",
       "invisible": true,
@@ -533,6 +538,50 @@
             "name": "hidden_section_d5d3f130-5cbb-11ed-a3a5-7721e528237c_row_d5d3f131-5cbb-11ed-a3a5-7721e528237c",
             "controls": [
               {
+                "type": "checkbox",
+                "name": "control_d4642f50-5d91-11ed-9dad-99d524beac10",
+                "fieldName": "control_d4642f50-5d91-11ed-9dad-99d524beac10",
+                "label": "nftListed",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 0,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleInDataGrid": true,
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "editorMode": "javascript",
+                "propName": "nftListed",
+                "gridId": "digitalProducts"
+              },
+              {
                 "type": "text",
                 "name": "control_e974c390-5d6f-11ed-b525-7f18b18ea3ef",
                 "fieldName": "control_e974c390-5d6f-11ed-b525-7f18b18ea3ef",
@@ -927,7 +976,7 @@
       }
     ],
     "layout": "collapse",
-    "_uniqueId": 0.8725985014425583
+    "_uniqueId": 0.5447590600879406
   },
   "source": "digitalProducts",
   "storageType": "dashboard",

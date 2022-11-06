@@ -245,6 +245,10 @@
     "savePath": "widgetsComputed/GetCurrentUsername"
   },
   {
+    "filePath": "widgetsComputed/GetMyListings.js",
+    "savePath": "widgetsComputed/GetMyListings"
+  },
+  {
     "filePath": "widgetsComputed/GetProfileComplete.js",
     "savePath": "widgetsComputed/GetProfileComplete"
   },
