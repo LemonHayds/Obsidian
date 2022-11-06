@@ -155,12 +155,20 @@
     "savePath": "widgetsComputed/ConnectWallet"
   },
   {
+    "filePath": "widgetsComputed/Contracts.js",
+    "savePath": "widgetsComputed/Contracts"
+  },
+  {
+    "filePath": "widgetsComputed/CreateFundraiseWeb3.js",
+    "savePath": "widgetsComputed/CreateFundraiseWeb3"
+  },
+  {
     "filePath": "widgetsComputed/CreateListing.js",
     "savePath": "widgetsComputed/CreateListing"
   },
   {
-    "filePath": "widgetsComputed/CreateListingJSON.js",
-    "savePath": "widgetsComputed/CreateListingJSON"
+    "filePath": "widgetsComputed/CreateListingWeb3.js",
+    "savePath": "widgetsComputed/CreateListingWeb3"
   },
   {
     "filePath": "widgetsComputed/GetCurrentUser.js",
@@ -169,6 +177,10 @@
   {
     "filePath": "widgetsComputed/GetCurrentUserRowKey.js",
     "savePath": "widgetsComputed/GetCurrentUserRowKey"
+  },
+  {
+    "filePath": "widgetsComputed/GetCurrentUserWalletProvider.js",
+    "savePath": "widgetsComputed/GetCurrentUserWalletProvider"
   },
   {
     "filePath": "widgetsComputed/GetCurrentUsername.js",
@@ -181,6 +193,10 @@
   {
     "filePath": "widgetsComputed/RedirectToTangle.js",
     "savePath": "widgetsComputed/RedirectToTangle"
+  },
+  {
+    "filePath": "widgetsComputed/UploadListingFiles.js",
+    "savePath": "widgetsComputed/UploadListingFiles"
   },
   {
     "filePath": "widgetsData/dataGrid/digitalProducts.json",

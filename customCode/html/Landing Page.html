@@ -2,9 +2,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="main.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 <style>
 
 </style>
@@ -16,15 +13,20 @@
   <div class="container">
     <div class="navbar-brand-container">
         <a class="navbar-brand" href="#">
-        <img src="https://static.wixstatic.com/media/5fdfad_f043365f20154619bde618e4733178c7~mv2.png/v1/fill/w_404,h_436,al_c,lg_1,q_85,enc_auto/the_thing_edited.png" alt="Logo" height="40" >
-        Obsidian
+        <img src="https://static.wixstatic.com/media/5fdfad_a826228ef78f42c4843e796548aa03a9~mv2.png/v1/fill/w_1124,h_432,al_c,lg_1,q_90,enc_auto/gage.png" alt="Logo" height="50" >
         </a>
     </div>
     <div>
         <a class="navbar-item" href="#home">Home</a>
-        <a class="navbar-item" href="#connect">
-            <button class="button button1">Connect</button>
-        </a>
+        <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Connect
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" @click="ConnectWallet('metamask')" href="#">MetaMask</a>
+            <a class="dropdown-item" @click="ConnectWallet('torus')" href="#">Torus</a>
+        </div>
+        </div>
     </div>
   </div>
 </nav>
@@ -33,11 +35,13 @@
 <div>
     <h1 class="body-container">Monotize your creations securely</h1>
 </div>
+
+<video src="https://fast.wistia.com/embed/medias/otuvzf4l3k/swatch"></video>
  
 <div class="footer">
   <p>Obsidian © 2022 </p>
 </div>
 
-
+<script src="https://fast.wistia.com/embed/medias/otuvzf4l3k.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
 </body>
 </html>

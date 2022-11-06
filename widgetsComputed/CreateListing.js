@@ -1,5 +1,8 @@
-return function(){
+return async function(){
 
-    $dgAddRowAndOpenModal('digitalProducts', {} )
+    var product = await $dgAddRow('digitalProducts', {} )
+    $dgShowEditRowModal('digitalProducts', product)
+
+    $setUser('productRowKey', product)
 
 }
