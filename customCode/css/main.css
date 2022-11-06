@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
-
+p{
+  line-height:1.25rem;
+}
 
 .navbar-brand-container{
   align-items: center;
@@ -22,7 +24,7 @@
   text-align: center;
   font-size:64px;
   color: #fff;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 200px;
   padding-right: 200px;
   font-family: 'Montserrat', sans-serif;
@@ -36,6 +38,7 @@
    width: 100%;
    color: black;
    text-align: center;
+   padding: 2px;
 }
 
 #dropdownMenuButton{
@@ -60,6 +63,7 @@
 .body-center-1{
   padding-top: 20px;
   padding-left: 100px;
+  
 }
 
 .body-header-1{
@@ -70,7 +74,8 @@
 
 .active {
   font-weight: bold;
-  color: black;
+  color: white;
+  font-size: 20px;
 }
 
 .search-container{
@@ -119,5 +124,62 @@
   background-image: url("https://i.ibb.co/R2Xqqcm/photo-2022-11-05-22-03-46.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 30px;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.section h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Cookie";
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+}
+
+.card-deck{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+}
+
+.body-container-2{
+  text-align: center;
+  font-size:28px;
+  color: #fff;
+  padding-top: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: 'Montserrat', sans-serif;
+  line-height:1.25em;
+}
+
+.card{
+  height: 250px;
 }

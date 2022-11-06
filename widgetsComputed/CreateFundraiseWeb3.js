@@ -42,5 +42,5 @@ return async function(productName, theSymbol, fundingGoal, perPrice, startTime, 
         console.warn(err)
     }
     
-    $setDataGridVal('digitalProducts', $getUser('productRowKey') + '.nftListed', true)
+    //$setDataGridVal('digitalProducts', $getUser('productRowKey') + '.nftListed', true)
 }
